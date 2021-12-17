@@ -1,0 +1,94 @@
+<?xml version='1.0' encoding='UTF-8' ?><!--
+Created by Alight Motion (http://alightmotion.com)
+Exported: 2021-12-17 07:30 AM
+3.7.1 (0514)
+ (15 Apr 2021 12.36.47)
+-->
+<scene title="Proyek Baru 16" width="1280" height="720" exportWidth="1280" exportHeight="720" bgcolor="#ff000000" totalTime="22049" fps="60" modifiedTime="1639701055074" amver="514" ffver="101" am="com.alightcreative.motion/3.7.1" amplatform="android">
+  <media uri="content://media/external/video/media/195734" filename="20211216_720p(1).mp4" title="20211216_720p(1).mp4" type="video/mp4" duration="22407000" size="10726160" fps="60.03" orientation="0" infoUpdated="1639666842678" width="1280" height="720" />
+  <shape id="349275" label="20211216_720p(1).mp4" startTime="0" endTime="22049" fillType="media" fillVideo="content://media/external/video/media/195734" outTime="2147483274" s=".rect">
+    <transform>
+      <location value="640.000000,360.000000" />
+    </transform>
+    <effect id="com.alightcreative.effects.exposure" locallyApplied="true">
+      <property name="exposure" type="float" value="-0.100000" />
+      <property name="gamma" type="float" value="1.000000" />
+      <property name="offset" type="float" value="0.000000" />
+    </effect>
+    <effect id="com.alightcreative.effects.highlightshadow" locallyApplied="true">
+      <property name="highlights" type="float" value="2.000000" />
+      <property name="shadows" type="float" value="0.870000" />
+    </effect>
+    <effect id="com.alightcreative.effects.satvib" locallyApplied="true">
+      <property name="saturation" type="float" value="0.330000" />
+      <property name="vib" type="float" value="1.000000" />
+    </effect>
+    <effect id="com.alightcreative.effects.rgbsep" locallyApplied="true">
+      <property name="strength" type="float" value="0.010000" />
+      <property name="angle" type="float" value="0.000000" />
+      <property name="centerChannel" type="int" value="1" />
+      <property name="mode" type="int" value="2" />
+    </effect>
+    <effect id="com.alightcreative.effects.flicker2" locallyApplied="true">
+      <property name="freq" type="float" value="2.470000" />
+      <property name="mag" type="float" value="0.090000" />
+      <property name="seed" type="float" value="0.900000" />
+      <property name="basis" type="int" value="0" />
+    </effect>
+    <effect id="com.alightcreative.effects.spinblur2" locallyApplied="true">
+      <property name="angle" type="float" value="2.200000" />
+    </effect>
+    <effect id="com.alightcreative.effects.lensblur2" locallyApplied="true">
+      <property name="strength" type="float" value="0.075000" />
+      <property name="radius" type="float" value="0.270000" />
+    </effect>
+    <effect id="com.alightcreative.effects.vignette" locallyApplied="true">
+      <property name="scale" type="float" value="1.063000" />
+      <property name="roundness" type="float" value="1.500000" />
+      <property name="feather" type="float" value="0.500000" />
+      <property name="strength" type="float" value="0.800000" />
+      <property name="tint" type="float" value="0.200000" />
+      <property name="overlaycolor" type="color" value="#ff000000" />
+      <property name="punchout" type="bool" value="false" />
+    </effect>
+    <gain value="0.000000" />
+    <property name="size" type="vec2" value="640.000000,360.000000" />
+  </shape>
+  <audio id="349276" label="20211216_720p(1).mp4" startTime="0" endTime="20732" src="content://media/external/video/media/195734" outTime="2147481957" />
+  <shape id="349277" label="Persegi Panjang Bulat 1" startTime="19983" endTime="22033" fillType="color" s=".roundrect">
+    <transform>
+      <location value="640.000000,360.000000" />
+      <scale value="6.400000,6.400000" />
+    </transform>
+    <fillColor value="#ff000000" />
+    <effect id="com.alightcreative.effects.fade" locallyApplied="true">
+      <property name="inTime" type="float" value="0.500000" />
+      <property name="outTime" type="float" value="0.000000" />
+    </effect>
+    <property name="size" type="vec2" value="100.000000,100.000000" />
+    <property name="cornerRadius" type="float" value="25.000000" />
+  </shape>
+  <shape id="349278" label="Persegi Panjang Bulat 2" startTime="0" endTime="20066" fillType="gradient" blending="linear-dodge" s=".roundrect">
+    <transform>
+      <location value="640.000000,360.000000" />
+      <scale value="6.400000,6.400000" />
+      <opacity value="0.462891" />
+    </transform>
+    <fillColor value="#ff7c7fc2" />
+    <gradient type="linear" startColor="#ff000000" endColor="#ffffffff" start="0.385130,0.794570" end="0.677779,-0.097527" />
+    <effect id="com.alightcreative.effects.exposure" locallyApplied="true">
+      <property name="exposure" type="float" value="-0.250000" />
+      <property name="gamma" type="float" value="0.445000" />
+      <property name="offset" type="float" value="0.020000" />
+    </effect>
+    <effect id="com.alightcreative.effects.spinblur2" locallyApplied="true">
+      <property name="angle" type="float" value="2.200000" />
+    </effect>
+    <effect id="com.alightcreative.effects.lensblur2" locallyApplied="true">
+      <property name="strength" type="float" value="0.075000" />
+      <property name="radius" type="float" value="0.270000" />
+    </effect>
+    <property name="size" type="vec2" value="100.000000,100.000000" />
+    <property name="cornerRadius" type="float" value="25.000000" />
+  </shape>
+</scene>
